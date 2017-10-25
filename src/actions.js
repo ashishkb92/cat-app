@@ -1,0 +1,2 @@
+export const FETCH_CAT_IMAGES = 'FETCH_CAT_IMAGES';
+export const FETCH_CAT_TYPES = 'FETCH_CAT_TYPES'

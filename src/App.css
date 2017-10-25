@@ -1,0 +1,45 @@
+body {
+	padding-top:70px;
+}
+
+img {
+	margin: 20px 50px;
+}
+
+.jumbotron {
+	background: white;
+	margin: 0 auto;
+}
+
+.jumbotron h3 {
+	color: rgb(2, 21, 53);
+	text-decoration: underline;
+}
+
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+  float: left;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+.navbar-header {
+  background: white;
+}
+
+.img-rounded {
+    border: 5px solid black;
+}
