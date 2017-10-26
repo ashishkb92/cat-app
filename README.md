@@ -14,3 +14,5 @@ Run this command on command line:
 - yarn start
 
 open http://localhost:3000 in your browser and you are ready to see some cats. :) 
+
+PS : You need to have node and npm installed .
