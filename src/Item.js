@@ -1,5 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const Item = ({item, url}) => <img className="img-rounded" src={require(`${url}${item}.jpg`)} width="375px" height="350px"/>
+const Item = ({ item, url }) => (
+  <img
+    className="img-rounded"
+    src={require(`${url}${item}.jpg`)}
+    width="375px"
+    height="350px"
+    alt={item}
+  />
+);
 
 export default Item;

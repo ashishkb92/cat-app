@@ -10,7 +10,7 @@ class AllCats extends React.Component {
     return (
       <div className="jumbotron">
         <Information information="Click on your favourite cat explore its photo" />
-        <List items={this.props.catTypes} url="./images/" type="all"/>
+        <List items={this.props.catTypes} url="./images/" type="all" />
       </div>
     );
   }
